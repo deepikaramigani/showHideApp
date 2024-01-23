@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.heading {
+  color: white;
+  font-size: 40px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.name-container {
+  background-color: #fddddb;
+  border-style: none;
+  border-radius: 8px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.button {
+  background-color: white;
+  color: #dd1264;
+  border-style: none;
+  border-color: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
